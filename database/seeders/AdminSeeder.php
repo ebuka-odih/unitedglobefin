@@ -32,7 +32,7 @@ class AdminSeeder extends Seeder
 
     public function run()
     {
-        $admin = User::where('email', '=', 'admin@ctbcommerce.com')->first();
+        $admin = User::where('email', '=', 'admin@unitedglobefin.com')->first();
         if($admin === null){
             $user = User::create([
                 'first_name' => 'Admin',
@@ -40,9 +40,9 @@ class AdminSeeder extends Seeder
                 'status' => 1,
                 'admin' => 1,
                 'username' =>'admin',
-                'email' => 'admin@ctbcommerce.com',
+                'email' => 'admin@unitedglobefin.com',
                 'email_verified_at' => \Carbon\Carbon::now(),
-                'password' => Hash::make('ADMINPASS1234'),
+                'password' => Hash::make('ADMINPASS1'),
             ]);
             $this->autoCreate($user->id);
         }
