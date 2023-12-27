@@ -1,0 +1,77 @@
+@extends('pages.layout.app')
+@section('content')
+
+    <main>
+
+        <!-- Blog Details breadcrumb area start -->
+        <section class="breadcrumb__area pt-165 pb-150 p-relative z-index-1 fix" data-bg-color="#16243E" style="background-color: rgb(22, 36, 62);">
+            <div class="breadcrumb__bg" data-background="assets/img/breadcrumb/bg.png" style="background-image: url(&quot;assets/img/breadcrumb/bg.png&quot;);"></div>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-sm-12">
+                        <div class="breadcrumb__content">
+                            <h3 class="breadcrumb__title">
+                                ESTATE PLANNING & SETTLEMENT
+                            </h3>
+                            <p class="text-white">
+                                YOUR LEGACY, THOUGHTFULLY PLANNED AND PRESERVED.
+
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- Blog Details breadcrumb area end -->
+
+
+        <!-- postbox area start -->
+        <section class="tp-postbox-area pt-120 pb-120">
+
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-xxl-8 col-xl-8 col-lg-8">
+                        <div >
+                            <h3>Alleviate the natural stress that comes with planning and executing your will.</h3>
+
+                            <p>Establish the administration and management of your trust to ensure that your wishes, as expressed in the trust, are followed. A well-executed estate plan will include preparation and filing of tax returns, payment of bills and disbursement of income, and disposition of assets after death.</p>
+
+                            <h3 style="margin: 3px">Insure your Assets</h3>
+
+                            <p>Building an estate is one thing. Protecting it so it can meet your needs and be passed onto your heirs is quite another. When the unexpected happens, our smart risk management and insurance strategies provide peace of mind.</p>
+
+
+                        </div>
+                    </div>
+
+                    <div class="col-xxl-4 col-xl-4 col-lg-4">
+                        <div class="tp-sidebar-wrapper">
+                            <div class="tp-sidebar-widget mb-40">
+                                <div class="tp-sidebar-widget-content">
+                                    <div class="tp-sidebar-post tp-rc__post">
+                                        <div class="tp-rc__post d-flex align-items-center">
+                                            <div class="tp-rc__post-content">
+                                                <h3 class="tp-rc__post-title">
+                                                    <a href="mailto:info@ctbcommerce"><i class="fa-regular fa-envelope"></i> info@ctbcommerce</a>
+                                                </h3>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- postbox area end -->
+
+
+    </main>
+
+@endsection
