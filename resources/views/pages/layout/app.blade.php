@@ -117,7 +117,7 @@
         <div class="tp-header-logo p-relative">
             <span class="tp-header-logo-bg"></span>
             <a href="{{ route('index') }}">
-                <h3 style="font-weight: bolder, color: black">{{ env("APP_NAME") }}</h3>
+                <h4 style="font-weight: bolder; color: black">{{ env("APP_NAME") }}</h4>
 {{--                <img height="50" width="150" src="{{ asset('img/logo.png') }}" alt="">--}}
             </a>
 
