@@ -43,7 +43,7 @@
 <nav class="navbar bg-dark">
     <div class="container">
         <a class="navbar-brand" href="{{ route('index') }}">
-            <img src="{{ asset('img/logo.png') }}" alt="Bootstrap" width="300" height="80">
+            <h4 style="font-weight: bolder; color: black">{{ env("APP_NAME") }}</h4>
         </a>
 
     </div>
@@ -89,7 +89,7 @@
                             <option value="other">Other</option>
                         </select>
                     </div>
-                    
+
                     <div class="col-md-4 mb-3">
                         <label for="inputPassword4" class="form-label">ID Number<span class="text-danger">*</span></label>
                         <input type="text" class="form-control" id="inputPassword4" name="id_number" value="{{ old('id_number') }}" required>

@@ -66,7 +66,7 @@
             <div class="content-header justify-content-lg-center bg-header-dark">
                 <!-- Logo -->
                 <a class="fw-semibold text-white tracking-wide" href="{{ route('index') }}">
-                    CTB<span class="opacity-75"> Commerce</span>
+                    {{ env('APP_NAME') }}
                 </a>
                 <!-- END Logo -->
 

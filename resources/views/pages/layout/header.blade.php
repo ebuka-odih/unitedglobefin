@@ -5,7 +5,7 @@
                 <div class="col-6 col-lg-2">
                     <div class="tp-header-logo-2 p-relative">
                         <a href="{{ route('index') }}">
-                            <h4 style="font-weight: bolder, color: black">{{ env("APP_NAME") }}</h4>
+                            <h4 style="font-weight: bolder; color: black">{{ env("APP_NAME") }}</h4>
 {{--                            <img height="50" width="150" src="{{ asset('img/logo.png') }}" alt="">--}}
                         </a>
                     </div>

@@ -50,7 +50,7 @@
 <nav class="navbar bg-dark">
     <div class="container">
         <a class="navbar-brand" href="{{ route('index') }}">
-            <img src="{{ asset('img/logo.png') }}" alt="Bootstrap" width="300" height="80">
+            <h4 style="font-weight: bolder; color: black">{{ env("APP_NAME") }}</h4>
         </a>
 
     </div>
